@@ -1,4 +1,5 @@
 connect / as sysdba
+alter user system identified by password;
 create spfile from pfile;
 startup nomount
 CREATE DATABASE ORCL
